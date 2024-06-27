@@ -1,9 +1,10 @@
-import java.util.HashMap;
+// import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class LearnMap {
     public static void main(String[] args) {
-        Map<String, Integer> numbers = new HashMap<>();
+        Map<String, Integer> numbers = new TreeMap<>();
         numbers.put("one", 1);
         numbers.put("two", 2);
         numbers.put("three", 3);
