@@ -6,7 +6,7 @@ public class LearnArrayDeque {
         adq.offer(12);
         adq.offerFirst(23);
         adq.offerLast(42);
-        adq.offer(26)
+        adq.offer(26);
         System.out.println("Array Deque is : " + adq);
     }
 }

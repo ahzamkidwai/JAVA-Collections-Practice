@@ -23,8 +23,7 @@ public class LearnPriorityQueue {
          * System.out.println("Priority Queue is : " + pq);
          */
 
-
-         // MAX-HEAP
+        // MAX-HEAP
         PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
 
         pq.offer(48);
